@@ -33,3 +33,5 @@ toml; python_version < '3.11'
 tqdm
 # better type hints for older python versions
 typing_extensions
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
